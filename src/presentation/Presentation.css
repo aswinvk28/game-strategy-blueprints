@@ -1,0 +1,193 @@
+#root h1, #root h2, #root h3, #root h4, #root h5, #root h6 {
+  color: #fff;
+}
+
+#root h1 {
+  font-size: 72px;
+}
+#root h2 {
+  font-size: 58px;
+}
+#root h3 {
+  font-size: 44px;
+}
+#root h4 {
+  font-size: 38px;
+}
+#root h5 {
+  font-size: 24px;
+}
+#root h6 {
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#root .game-app-list, #root .game-locations {
+  list-style: circle;
+  font-size: 32px;
+}
+#root ul.game-app-list li.game-app-list-item {
+  font-size: 32px;
+  list-style-type: disc;
+}
+#root .game-app-list .game-app-list-item, #root .game-locations .game-location-item {
+  list-style-type: none;
+  font-size: 16px;
+}
+#root .game-description {
+  font-weight: 400;
+  font-size: 30px;
+}
+#root .game-categories .game-description {
+  font-size: 30px;
+  font-weight: 400;
+}
+#root .game-event-loc-1, .game-event-loc-2 {
+  list-style: none;
+  font-size: 16px;
+  clear: both;
+  display: table;
+}
+.game-event-loc-1:after, .game-event-loc-2:after, .game-event-loc-1:before, .game-event-loc-2:before {
+  clear: both;
+}
+#root .game-event-loc-1 li, #root .game-event-loc-2 li {
+  list-style-type: none;
+  font-size: 16px;
+  color: #003758;
+  font-weight: bold;
+}
+#root .mt-10 {
+  margin-top: 10px;
+}
+#root .mt-20 {
+  margin-top: 20px;
+}
+#root .mb-10 {
+  margin-bottom: 10px;
+}
+#root .mb-20 {
+  margin-bottom: 20px;
+}
+#root .mt-2 {
+  margin-top: 2rem;
+}
+#root .mt-4 {
+  margin-top: 4rem;
+}
+#root .mt-6 {
+  margin-top: 6rem;
+}
+#root .mt-8 {
+  margin-top: 8rem;
+}
+#root .manufacturing-options .game-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+#root .game-title .game-description {
+  margin-top: 7rem;
+}
+#root .game-locations .game-location-item {
+  color: #fff;
+}
+#root .manufacturing-options .game-link {
+  color: #3B6B88;
+}
+#root .game-link {
+  font-weight: bold;
+}
+#root .blueprints {
+  clear: both;
+  display: flex;
+  margin-top: 2.5rem;
+}
+#root .heading-black {
+  color: #444;
+}
+.blueprints:after {
+  clear: both;
+}
+.blueprints:before {
+  clear: both;
+}
+.blueprints .box-shadow-tile {
+  flex: 0 1 40%;
+}
+#root .box-shadow-tile {
+  clear: both;
+  display: flex;
+}
+.box-shadow-tile:after {
+  clear: both;
+}
+.box-shadow-tile:before {
+  clear: both;
+}
+.box-shadow-tile .box-shadow-items  {
+  flex: 0 1 50%;
+}
+#root .box-shadow-tile h5 {
+  font-size: 20px;
+}
+#root .blueprints .game-blueprints-text {
+  font-size: 20px;
+}
+#root .box-shadow-tile {
+  margin-right: 30px;
+}
+#root .spectacle-slide .spectacle-content {
+  min-width: 1240px;
+  max-width: 1420px;
+}
+#root .game-strapline {
+  color: #e1e1e1;
+  font-size: 20px;
+}
+#root .game-versions {
+  display: flex;
+}
+#root .game-versions .game-version {
+  flex: 0 1 40%;
+}
+#root .game-event-left {
+  float: left;
+  font-size: 16px;
+  color: #fff;
+}
+#root .game-event-right {
+  float: right;
+  font-size: 16px;
+  color: #fff;
+}
+
+#root canvas {
+  border: 4px solid #000;
+}
+
+#root .img_svg {
+  display: none;
+}
